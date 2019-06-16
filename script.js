@@ -36,3 +36,6 @@ const comment = comments.find((comment) => comment.id === 823423 )
 // Find the comment with this ID
 // delete the comment with the ID of 823423
 
+const commentIndex = comments.findIndex((comment) => comment.id === 823423);
+
+comments.splice(commentIndex, 1)
